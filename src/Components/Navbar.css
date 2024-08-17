@@ -1,0 +1,47 @@
+#Navbar {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: #23212d;
+  color: white;
+}
+#left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+#left:nth-child(1) {
+  font-family: sans-serif;
+  cursor: pointer;
+}
+#right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#right > p {
+  cursor: pointer;
+}
+#right > p:active {
+  color: aqua;
+}
+#right > button{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-bottom: none;
+    background: rgb(0, 238, 251);
+    cursor: pointer;
+}
