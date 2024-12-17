@@ -14,7 +14,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background: #23212d;
 }
 #root {
   width: 1440px;

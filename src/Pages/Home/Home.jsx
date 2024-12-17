@@ -1,28 +1,51 @@
 import React from "react";
 import "./Home.css";
+//icons
+import facebookicon from "./assets/facebook.png";
+import instagramicon from "./assets/instageam.png";
+import twittericon from "./assets/twitter.png";
 
 export default function Home() {
   return (
     <div id="Home">
-      <div className="left">
-        <div id="TextBar">
-          <h3>Web Dasturchi</h3>
-          <h1>Salom Men Omadbekman</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sed
-            repudiandae quibusdam. Officia iusto a ipsam, quas laboriosam
-            adipisci ullam.
-          </p>
-        </div>
-        <div id="BtnBar">
-          <button id="DL">DOWLOAD CV</button>
-          <button id="GH">G</button>
-          <button id="GH">I</button>
-          <button id="GH">T</button>
-          <button id="GH">Y</button>
-        </div>
+      <div id="Homeleft">
+        <button>
+          <img src={facebookicon} alt="facebookicon" />
+        </button>
+        <button>
+          <img src={instagramicon} alt="instagramicon" />
+        </button>
+        <button>
+          <img src={twittericon} alt="twittericon" />
+        </button>
       </div>
-      <div id="MyImg">
+      <div>
+        <div id="Homeright">
+          <h1>
+            Enjoy your life in our <br /> luxurious furniture
+          </h1>
+          <p>
+            If you are looking for a furniture then you have <br /> come to the
+            right place.
+          </p>
+          <button>Order Now</button>
+        </div>
+        <div class="stats-container">
+          <div class="stat-item">
+            <h2>120 k</h2>
+            <p>Furniture Sale</p>
+          </div>
+          <div class="stat-item">
+            <h2>98 k</h2>
+            <p>
+              Review <span class="star">⭐</span> (4.5)
+            </p>
+          </div>
+          <div class="stat-item">
+            <h2>125</h2>
+            <p>Furniture Categories</p>
+          </div>
+        </div>
       </div>
     </div>
   );
